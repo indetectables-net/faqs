@@ -1,25 +1,31 @@
-**FAQ:**    **TROYANOS I: Conceptos básicos**
-**Realizado gracias a la colaboración de todos los miembros de Indetectables.net**
-Pendientes: TOR, SSH, HTTP Tunneling. Ilustraciones para explicar conexiones inversa/directa/web, enlaces importantes... y lo que se les ocurra
+# TROYANOS: Conceptos básicos
 
-**CONCEPTOS BASICOS**
+## Partes de un Troyano
+El troyano consta de:
 
-**Partes de un Troyano**
- El troyano consta de:
- Cliente: Es el programa que manda las ordenes a ejecutar
- Servidor: Es el programa que tiene el infectado, este deja un puerto a la escucha
- Editor: Este nos permite editar las caracteristicas de nuestro server; puerto, ip, inyeccion,etc.
- Otros: Estos pueden ser plugins tales como \*.dll para incorporarle algunas funciones al troyano.
+* Cliente: Es el programa que manda las ordenes a ejecutar
+* Servidor: Es el programa que tiene el infectado, este deja un puerto a la escucha
+* Editor: Este nos permite editar las características de nuestro server; puerto, ip, inyección, etc.
+* Otros: Estos pueden ser plugins tales como \*.dll para incorporarle algunas funciones al troyano.
 
-**¿Que hace un Troyano o Caballo de Troya?**
- Las funciones que puede tener este son muy diversas, como ya he dicho anteriormente, todo depende del nivel de programacion del programador, las intenciones de este (troyano profesional o troyano de lammers...) y un poco menos influyente, el lenguage de programacion y componentes empleados.
- Los Troyanos pueden tener funciones como; Keylogger(programa/aplicacion que registra las teclas pulsadas),capturador de webcam(este capta imagenes de forma rapida, pareciendo asi como si de un video se tratase. Esto depende de nuestra velocidad de conexion a Internet), ftp de archivos(nos permiten ver los archivos que contienen los distintos discos duros, pudiendo bajar y subir archivos), opciones en pantalla(tales como cambio de Escritorio, cambio de protector la pantalla, esconder iconos, etc.), informacion del pc(Esto nos permite conocer las caracteristicas de un Pc;  tanto en el ambito de hardware &quot;perifericos&quot;, tambien su Sistema Operativo por ejemplo), Obtener shell(Esto nos permite obtener la shell del equipo remoto). Tambien podemos encontrar otro tipo de cosas como abrir/cerrar bandeja de cd, encender/apagar leds del teclado,etc,etc. Estos son ejemplos simples de lo que normalmente tiene un Troyano, las funciones de este refleja la imaginacion del programador.
+## ¿Que hace un Troyano o Caballo de Troya?
+Las funciones que puede tener este son muy diversas, como ya he dicho anteriormente, todo depende del nivel de programación del programador, las intenciones de este y un poco menos influyente, el lenguage de programacion y componentes empleados.
 
-**¿Cuantos tipos de Troyanos hay segun el modo de conexion?**
- Podemos clasificarlos en 3 tipos: Conexion Directa, Conexion Inversa y Conexio via web
+Los Troyanos pueden tener funciones como: 
+* Keylogger
+* Capturar pantalla
+* Capturar webcam: este capta imágenes de forma rapida, pareciendo asi como si de un video se tratase
+* Ftp de archivos: nos permiten ver los archivos que contienen los distintos discos duros, pudiendo bajar y subir archivos
+* Informacion del pc: nos permite conocer las caracteristicas del PC remoto 
+* Obtener shell: esto nos permite obtener la shell del equipo remoto 
+ 
+Estos son ejemplos simples de lo que normalmente tiene un Troyano, las funciones de este refleja la imaginacion del programador.
+
+## ¿Cuantos tipos de Troyanos hay segun el modo de conexion?
+Podemos clasificarlos en 3 tipos: Conexion Directa, Conexion Inversa y Conexio via web
 **Regla prima:**  Si tienes algun problema de conexión, comienza ensayando tus herramientas en 127.0.0.1 (IP Local) como DNS, de esa forma descartaras posibles problemas de configuración en la creación de tu server, puertos abiertos y demas variables.
 
-| **[+]** **Conexion Directa:
+#### Conexion Directa:
  Hablamos de conexion directa cuando nosotros (Cliente) nos conectamos al usuario infectado (Server). Es lo conexion mas habitual de los troyanos antiguos o backdoors, lo que hace es que el server deja escuchando un puerto y el cliente se conecta a través de ese puerto.**
 
 **¿Como puedo saber el puerto del remoto? ¿Y la ip?**
@@ -188,42 +194,11 @@ Primero debes de configurar la salidad de red de tu maquina virtual, Revisa las 
 
 Existen muchos sitios que nos permiten crear una direccion DNS para redirigir el trafico a nuestra IP, los mas usados son NO-IP y dyndns, pero ademas de esos existen muchos otros más:
 
-| [**http://www.ddns.nu/register.php**](http://www.ddns.nu/register.php)
-[**https://members.dhs.org/signup**](https://members.dhs.org/signup)
-[**http://www.dnip.net/register.cgi**](http://www.dnip.net/register.cgi)
-[**http://domain-dns.com/**](http://domain-dns.com/)
-[**https://www.dtdns.com/**](https://www.dtdns.com/)
-[**http://dns.blueline.be/**](http://dns.blueline.be/)
-[**http://dyndns.dk/ny.php**](http://dyndns.dk/ny.php)
-[**http://www.dyndsl.com/**](http://www.dyndsl.com/)
-[**http://dynserv.com/**](http://dynserv.com/)
-[**http://www.dynu.com/basic.asp?type=signup**](http://www.dynu.com/basic.asp?type=signup)
-[**http://www.dynup.net/signup/signup.php3**](http://www.dynup.net/signup/signup.php3)
-[**http://www.eurodns.com/register.php**](http://www.eurodns.com/register.php)
-[**http://www.everydns.net**](http://www.everydns.net/)
-[**http://fdns.net/**](http://fdns.net/)
-[**http://freedns.afraid.org/signup**](http://freedns.afraid.org/signup)
-[**http://hn.org/signup/vanity.shtml**](http://hn.org/signup/vanity.shtml)
-[**http://www.ipupdater.com/signup.php**](http://www.ipupdater.com/signup.php)
-[**http://www.mtgsy.net/new\_user.php?action=add**](http://www.mtgsy.net/new_user.php?action=add)
-[**http://www.minidns.net**](http://www.minidns.net/)
-[**http://www.dyn.ee**](http://www.dyn.ee/) | [**http://www.mydynip.org/metadot/**](http://www.mydynip.org/metadot/)
-[**http://myip.org/signup/index.htm?loc=signupPickDomain**](http://myip.org/signup/index.htm?loc=signupPickDomain)
-[**https://ssl.myserver.org/registerbeta/Free.asp**](https://ssl.myserver.org/registerbeta/Free.asp)
-[**http://www.nerdie.net/index.php?site=register**](http://www.nerdie.net/index.php?site=register)
-[**http://www.opendns.be/Content/newuser.asp**](http://www.opendns.be/Content/newuser.asp)
-[**http://www.prout.be/dns/?p=user\_new**](http://www.prout.be/dns/?p=user_new)
-[**http://www.selfhost.com/register.asp**](http://www.selfhost.com/register.asp)
-[**http://www.sitelutions.com/signup**](http://www.sitelutions.com/signup)
-[**http://www.yi.org/new.pl**](http://www.yi.org/new.pl)
-[**http://www.dyns.cx/signup**](http://www.dyns.cx/signup)
-[**https://www.2mydns.com/signup.asp**](https://www.2mydns.com/signup.asp)
-[**http://www.dhis.org/register.html**](http://www.dhis.org/register.html)
-[**http://www.ddo.jp**](http://www.ddo.jp/)
-[**http://www.editdns.com**](http://www.editdns.com/)
-[**https://www.xname.org**](https://www.xname.org/)
-[**http://www.dynddns.us**](http://www.dynddns.us/)
-[**http://www.serverthuis.nl**](http://www.serverthuis.nl/)
-[**http://www.dnsexit.com**](http://www.dnsexit.com/)
-[**http://www.zonedit.co**](http://www.zonedit.com/) |
-| --- | --- |
+[https://domain-dns.com/](https://domain-dns.com)
+[https://dyndns.dk/](https://dyndns.dk)
+[https://www.dynu.com/](https://www.dynu.com)
+[https://www.eurodns.com/](https://www.eurodns.com)
+[http://myip.org/](http://myip.org)
+[http://www.dynddns.us/](http://www.dynddns.us)
+[http://www.dnsexit.com/](http://www.dnsexit.com)
+[https://dnslookup.me/dynamic-dns/](https://dnslookup.me/dynamic-dns/)
