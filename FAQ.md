@@ -8,7 +8,7 @@
 1. [Redes](#redes)
 1. [Malware](#malware)
 1. [Antivirus y Firewalls](#antivirus-y-firewalls)
-1. [Varios](#varios)
+1. [Glosario](#glosario)
 
 
 
@@ -21,7 +21,7 @@ Es un número que identifica a un dispositivo (habitualmente una computadora) de
 Es habitual que un usuario que se conecta desde su hogar a Internet utilice una dirección IP que puede cambiar al reconectar; a esta forma de asignación de dirección IP se la denomina IP dinámica.
 Los sitios de Internet, servidores de correo, FTP, etc. que por su naturaleza necesitan estar permanentemente conectados generalmente tienen una dirección IP fija; a esta forma de asignación de dirección IP se la denomina IP estática.
 
-#### ¿Qué es una LAN (rede privada local)?
+#### ¿Qué es una LAN (red privada local)?
 Local Area Network. Red de área local. Red de computadoras ubicadas dentro de un espacio limitado y que tiene un enlace encargado de distribuir las comunicaciones. Por ejemplo, computadoras conectadas en una oficina, en un edificio o en hogares.
 
 #### ¿Qué son las IP Públicas e IP Privadas?
@@ -110,13 +110,22 @@ Es un elemento de hardware o software utilizado en una red o computadora para co
 Es un caso particular de firewall que se instala como software en una computadora, filtrando las comunicaciones entre dicha computadora y el resto de la red. Tiene la ventaja de que además del control de paquetes y puertos puede controlar que un malware no esté intentando hacerse pasar por una aplicación legítima. Estos firewalls suelen ser estar integrados con el antivirus.
 
 
-## Varios
+## Glosario
 
-#### ¿Qué es un Hacker?
+#### Hacker
 Es un término discutido ya que mientras los medios de comunicación como la TV y los diarios llaman hacker a cualquier persona que haya cometido un delito utilizando medios electrónicos, otros, los expertos, sostienen que para ser hacker hay que cumplir bastantes requisitos. En general hay consenso en que un hacker es un experto en varias o alguna rama técnica relacionada con la informática. Lo importante es que sepa que si ustedes sólo sabe manejar un par de troyanos, binders y crypters no debe creerse un hacker, el camino para serlo es largo y aunque pueda alardear delante de la mayoría de la gente, si lo hace en otros ámbitos podrá ser considerado un lammer.
 
-#### ¿Qué es un Lammer?
-Persona sin conocimientos avanzados de computación que se cree o hace pasar por hacker.
+#### Lammer
+Persona sin conocimientos avanzados de computación que se cree o hace pasar por hacker. Originalmente era usada en la cultura cracker y phreaker para referirse a alguien que realmente no entendía lo que estaba haciendo.
 
-#### ¿Qué es un Troll?
-Usuario de los foros que escribe mensajes sin el objeto de contribuir, sino para crear polémica, provocar al resto y perturbar el funcionamiento armónico de la comunidad. Se recomienda a los usuarios no contestar este tipo de mensajes ya que es la mejor manera de desalentar a un troll.
+#### Script kiddies
+Término en forma de burla referido a alguien que tiene un poco de conocimiento de computadoras y solo sabe usar software estándar para hacer cosas como "tirar" sitios web o rastrear contraseñas sobre un WiFi protegido. Es básicamente un término para desacreditar a alguien que dice ser un hacker experto.
+
+#### Troll
+Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contribuir, sino para crear polémica, provocar al resto y perturbar el funcionamiento armónico de la comunidad. Se recomienda a los usuarios no contestar este tipo de mensajes ya que es la mejor manera de desalentar a un troll.
+
+#### Dark web
+"Dark web" o "darknet" a veces se usan indistintamente, aunque no debería hacerse. La web oscura (darknet) está formada por sitios que no están indexados por los motores de búsqueda (como Google) y solo son accesibles a través de redes especializadas como Tor (ver Tor). A menudo, la web oscura es utilizada por operadores de sitios web que desean permanecer en el anonimato. Todo en la web oscura está en la web profunda (ver Deep Web), pero no todo en la web profunda está en la web oscura.
+
+#### Deep web
+Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
