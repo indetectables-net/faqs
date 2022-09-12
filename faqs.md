@@ -59,6 +59,17 @@ El motivo de por qué éste obtiene esas ventajas es que muchos firewalls no ana
 Sin inyección: Se ejecutan como un programa común y corriente, siendo visibles como un proceso más.
 Con inyección: Se infiltran en otro proceso para intentar camuflarse de los firewall por software.
 
+#### Puerta trasera
+Se denomina backdoor o puerta trasera a cualquier punto débil de un programa o sistema
+mediante el cual una persona no autorizada puede acceder a un sistema.
+Las puertas traseras pueden ser errores o fallos, o pueden haber sido creadas a propósito, por
+los propios autores pero al ser descubiertas por terceros, pueden ser utilizadas con fines ilícitos.
+Por otro lado, también se consideran puertas traseras a los programas que, una vez instalados
+en el ordenador de la víctima, dan el control de éste de forma remota al ordenador del atacante.
+Por lo tanto aunque no son específicamente virus, pueden llegar a ser un tipo de malware que
+funcionan como herramientas de control remoto. Cuentan con una codificación propia y usan
+cualquier servicio de Internet: correo, mensajería instantánea, http, ftp, telnet o chat. Chat.
+
 #### ¿Qué significa inyección o FWB, FWB+, FWB++ y FWB#?
 La inyección del server en un proceso sirve para que evitar que el firewall filtre (prohíba) las conexiones salientes. La idea es inyectarse de un proceso que tenga salida a internet para poder conectarse.
 
