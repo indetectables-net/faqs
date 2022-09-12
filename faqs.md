@@ -60,7 +60,6 @@ Sin inyección: Se ejecutan como un programa común y corriente, siendo visibles
 Con inyección: Se infiltran en otro proceso para intentar camuflarse de los firewall por software.
 
 #### Puerta trasera
-Definición:
 Se denomina backdoor o puerta trasera a cualquier punto débil de un programa o sistema
 mediante el cual una persona no autorizada puede acceder a un sistema.
 Las puertas traseras pueden ser errores o fallos, o pueden haber sido creadas a propósito, por
