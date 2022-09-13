@@ -47,6 +47,18 @@ Es un sistema que permite la actualización en tiempo real de la IP asignada a u
 
 ## Malware
 
+#### Virus
+
+Programa diseñado para que al ejecutarse, se copie a sí mismo adjuntándose en aplicaciones
+existentes en el equipo. De esta manera, cuando se ejecuta una aplicación infectada, puede
+infectar otros archivos.
+A diferencia de otro tipo de malware, como los gusanos, se necesita acción humana para que
+un virus se propague entre máquinas y sistemas.
+Los efectos que pueden provocar varían dependiendo de cada tipo de virus: mostrar un men-
+saje, sobrescribir archivos, borrar archivos, enviar información confidencial mediante correos
+electrónicos a terceros, etc. Los más comunes son los que infectan a ficheros ejecutables.
+
+
 #### ¿Cuál es la diferencia troyano con un RAT?
 Un RAT (Remote Administration Tool) realiza las mismas funciones que un troyano con la diferencia de que el RAT no está oculto en la computadora controlada. La diferencia es sutil pudiéndose transformar fácilmente un RAT en un troyano. Además algunos programadores prefieren llamar RATs a sus creaciones para evitar problemas legales y para persuadir a las compañías antivirus de que sus programas no son maliciosos y por lo tanto no deben ser detectados.
 
@@ -69,13 +81,6 @@ en el ordenador de la víctima, dan el control de éste de forma remota al orden
 Por lo tanto aunque no son específicamente virus, pueden llegar a ser un tipo de malware que
 funcionan como herramientas de control remoto. Cuentan con una codificación propia y usan
 cualquier servicio de Internet: correo, mensajería instantánea, http, ftp, telnet o chat. Chat.
-
-#### Spyware
-
-Es un malware que recopila información de un ordenador y después la envía a una entidad
-remota sin el conocimiento o el consentimiento del propietario del ordenador.
-El término spyware también se utiliza más ampliamente para referirse a otros productos
-como adware, falsos antivirus o troyanos.
 
 #### ¿Qué significa inyección o FWB, FWB+, FWB++ y FWB#?
 La inyección del server en un proceso sirve para que evitar que el firewall filtre (prohíba) las conexiones salientes. La idea es inyectarse de un proceso que tenga salida a internet para poder conectarse.
