@@ -140,3 +140,14 @@ Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contri
 
 #### Deep web
 Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
+
+#### Red privada virtual
+
+Una red privada virtual, también conocida por sus siglas VPN (Virtual Private Network) es una
+tecnología de red que permite una extensión segura de una red local (LAN) sobre una red
+pública o no controlada como Internet.
+Al establecerlas, la integridad de los datos y la confidencialidad se protegen mediante la
+autentificación y el cifrado.
+Se trata realmente de una conexión virtual punto a punto entre dos redes LAN usando para
+la conexión una red pública como es Internet y consiguiendo que esta conexión sea segura
+gracias al cifrado de la comunicación.
