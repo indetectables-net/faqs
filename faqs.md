@@ -140,3 +140,17 @@ Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contri
 
 #### Deep web
 Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
+
+#### Sniffer
+Un sniffer es un programa que monitoriza la información que circula por la red con el objeto
+de capturar información.
+Las tarjetas de red pueden verificar si la información recibida está dirigida o no a su sistema.
+Si no es así, la rechaza. Un sniffer lo que hace es colocar a la placa de red en un modo el cual
+desactiva el filtro de verificación de direcciones (promiscuo) y por lo tanto acepta todos los
+paquetes que llegan a la tarjeta de red del ordenador donde está instalado estén dirigidos o no
+a ese dispositivo.
+El tráfico que no viaje cifrado podrá por tanto ser «escuchado» por el usuario del sniffer.
+El análisis de tráfico puede ser utilizado también para determinar relaciones entre varios usua-
+rios (conocer con qué usuarios o sistemas se relaciona alguien en concreto).
+No es fácil detectar si nuestro tráfico de red está siendo «escuchado» mediante un sniffer,
+por lo que siempre es recomendable utilizar tráfico cifrado en todas las comunicaciones.
