@@ -140,3 +140,22 @@ Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contri
 
 #### Deep web
 Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
+
+#### Phishing
+Phishing es la denominación que recibe la estafa cometida a través de
+medios telemáticos mediante la cual el estafador intenta conseguir,
+de usuarios legítimos, información confidencial (contraseñas, datos
+bancarios, etc.) de forma fraudulenta.
+El estafador o phisher suplanta la personalidad de una persona o em-
+presa de confianza para que el receptor de una comunicación electró-
+nica aparentemente oficial (vía e-mail, fax, SMS o telefónicamente)
+crea en su veracidad y facilite, de este modo, los datos privados que
+resultan de interés para el estafador.
+
+Existen diferentes modalidades de phishing. Cuando éste se realiza vía
+SMS el nombre técnico es Smishing y cuando se realiza utilizando Voz
+sobre IP, se denomina vishing. Otra variedad es el spear phishing, en la
+que los atacantes intentan mediante un correo electrónico, que apa-
+renta ser de un amigo o de empresa conocida, conseguir que les facili-
+temos: información financiera, números de tarjeta de crédito, cuentas
+bancarias o contraseñas.
