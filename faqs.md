@@ -140,3 +140,26 @@ Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contri
 
 #### Deep web
 Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
+
+####  Spoofing
+
+Es una técnica de suplantación de identidad en la Red, llevada a cabo por un ciberdelincuen-
+te generalmente gracias a un proceso de investigación o con el uso de malware. Los ataques
+de seguridad en las redes usando técnicas de spoofing ponen en riesgo la privacidad de los
+usuarios, así como la integridad de sus datos.
+De acuerdo a la tecnología utilizada se pueden diferenciar varios tipos de spoofing:
+• IP spoofing: consiste en la suplantación de la dirección IP de origen de un paquete TCP/
+IP por otra dirección IP a la cual se desea suplantar.
+• ARP spoofing: es la suplantación de identidad por falsificación de tabla ARP. ARP (Ad-
+dress Resolution Protocol) es un protocolo de nivel de red que relaciona una dirección
+MAC con la dirección IP del ordenador. Por lo tanto, al falsear la tabla ARP de la víctima,
+todo lo que se envíe a un usuario, será direccionado al atacante.
+• DNS spoofing: es una suplantación de identidad por nombre de dominio, la cual consis-
+te en una relación falsa entre IP y nombre de dominio.
+• Web spoofing: con esta técnica el atacante crea una falsa página web, muy similar a la
+que suele utilizar el afectado con el objetivo de obtener información de dicha víctima
+como contraseñas, información personal, datos facilitados, páginas que visita con fre-
+cuencia, perfil del usuario, etc. Los ataques de phishing son un tipo de Web spoofing.
+• Mail spoofing: suplantación de correo electrónico bien sea de personas o de entidades
+con el objetivo de llevar a cabo envío masivo de spam.
+
