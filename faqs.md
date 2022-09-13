@@ -140,3 +140,12 @@ Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contri
 
 #### Deep web
 Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
+
+#### Ransomware
+El ciberdelincuente, toma control del equipo infectado y «secuestra» la información del
+usuario cifrándola, de tal forma que permanece ilegible si no se cuenta con la contraseña de
+descifrado. De esta manera extorsiona al usuario pidiendo un rescate económico a cambio
+de esta contraseña para que, supuestamente, pueda recuperar sus datos.
+La seguridad del sistema está basada en la dificultad de factorización de grandes números. Su
+funcionamiento se basa en el envío de un mensaje cifrado mediante la clave pública del destina-
+tario, y una vez que el mensaje cifrado llega, éste se encarga de descifrarlo con su clave privada.
