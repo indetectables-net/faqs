@@ -140,3 +140,11 @@ Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contri
 
 #### Deep web
 Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
+
+#### Exploit
+Secuencia de comandos utilizados para, aprovechándose de un fallo o vulnerabilidad en un
+sistema, provocar un comportamiento no deseado o imprevisto. Mediante la ejecución de
+exploit se suele perseguir:
+• el acceso a un sistema de forma ilegítima.
+• obtención de permisos de administración en un sistema ya accedido.
+• un ataque de denegación de servicio a un sistema.
