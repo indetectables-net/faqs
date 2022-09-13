@@ -70,6 +70,13 @@ Por lo tanto aunque no son específicamente virus, pueden llegar a ser un tipo d
 funcionan como herramientas de control remoto. Cuentan con una codificación propia y usan
 cualquier servicio de Internet: correo, mensajería instantánea, http, ftp, telnet o chat. Chat.
 
+#### Spyware
+
+Es un malware que recopila información de un ordenador y después la envía a una entidad
+remota sin el conocimiento o el consentimiento del propietario del ordenador.
+El término spyware también se utiliza más ampliamente para referirse a otros productos
+como adware, falsos antivirus o troyanos.
+
 #### ¿Qué significa inyección o FWB, FWB+, FWB++ y FWB#?
 La inyección del server en un proceso sirve para que evitar que el firewall filtre (prohíba) las conexiones salientes. La idea es inyectarse de un proceso que tenga salida a internet para poder conectarse.
 
