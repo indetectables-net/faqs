@@ -70,6 +70,17 @@ Por lo tanto aunque no son específicamente virus, pueden llegar a ser un tipo d
 funcionan como herramientas de control remoto. Cuentan con una codificación propia y usan
 cualquier servicio de Internet: correo, mensajería instantánea, http, ftp, telnet o chat. Chat.
 
+#### Gusano
+
+Es un programa malicioso (o malware) que tiene como característica principal su alto grado
+de «dispersabilidad», es decir, lo rápidamente que se propaga.
+Mientras que los troyanos dependen de que un usuario acceda a una web maliciosa o ejecu-
+te un fichero infectado, los gusanos realizan copias de sí mismos, infectan a otros ordenado-
+res y se propagan automáticamente en una red independientemente de la acción humana.
+Su fin es replicarse a nuevos sistemas para infectarlos y seguir replicándose a otros equipos
+informáticos, aprovechándose de todo tipo de medios como el correo electrónico, IRC, FTP,
+correo electrónico, P2P y otros protocolos específicos o ampliamente utilizados.
+
 #### ¿Qué significa inyección o FWB, FWB+, FWB++ y FWB#?
 La inyección del server en un proceso sirve para que evitar que el firewall filtre (prohíba) las conexiones salientes. La idea es inyectarse de un proceso que tenga salida a internet para poder conectarse.
 
