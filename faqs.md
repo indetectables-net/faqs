@@ -47,6 +47,13 @@ Es un sistema que permite la actualización en tiempo real de la IP asignada a u
 
 ## Malware
 
+Es un tipo de software que tiene como objetivo dañar o infiltrarse sin el consentimiento de
+su propietario en un sistema de información. Palabra que nace de la unión de los términos
+en inglés de software malintencionado: malicious software.
+Dentro de esta definición tiene cabida un amplio elenco de programas maliciosos: virus,
+gusanos, troyanos, backdoors, spyware, etc. La nota común a todos estos programas es su
+carácter dañino o lesivo.
+
 #### Virus
 
 Programa diseñado para que al ejecutarse, se copie a sí mismo adjuntándose en aplicaciones
@@ -92,6 +99,13 @@ res y se propagan automáticamente en una red independientemente de la acción h
 Su fin es replicarse a nuevos sistemas para infectarlos y seguir replicándose a otros equipos
 informáticos, aprovechándose de todo tipo de medios como el correo electrónico, IRC, FTP,
 correo electrónico, P2P y otros protocolos específicos o ampliamente utilizados.
+
+#### Spyware
+
+Es un malware que recopila información de un ordenador y después la envía a una entidad
+remota sin el conocimiento o el consentimiento del propietario del ordenador.
+El término spyware también se utiliza más ampliamente para referirse a otros productos
+como adware, falsos antivirus o troyanos.
 
 #### ¿Qué significa inyección o FWB, FWB+, FWB++ y FWB#?
 La inyección del server en un proceso sirve para que evitar que el firewall filtre (prohíba) las conexiones salientes. La idea es inyectarse de un proceso que tenga salida a internet para poder conectarse.
@@ -185,4 +199,113 @@ como contraseñas, información personal, datos facilitados, páginas que visita
 cuencia, perfil del usuario, etc. Los ataques de phishing son un tipo de Web spoofing.
 • Mail spoofing: suplantación de correo electrónico bien sea de personas o de entidades
 con el objetivo de llevar a cabo envío masivo de spam.
+
+#### Exploit
+
+Secuencia de comandos utilizados para, aprovechándose de un fallo o vulnerabilidad en un
+sistema, provocar un comportamiento no deseado o imprevisto. Mediante la ejecución de
+exploit se suele perseguir:
+• el acceso a un sistema de forma ilegítima.
+• obtención de permisos de administración en un sistema ya accedido.
+• un ataque de denegación de servicio a un sistema.
+
+#### Zero-day
+
+Son aquellas vulnerabilidades en sistemas o programas informáticos que son únicamente
+conocidas por determinados atacantes y son desconocidas por los fabricantes y usuarios. Al
+ser desconocidas por los fabricantes, no existe un parche de seguridad para solucionarlas.
+Por esta razón son muy peligrosas ya que el atacante puede explotarlas sin que el usuario
+sea consciente de que es vulnerable.
+
+#### Zombie
+
+Es el nombre que se da a los ordenadores controlados de manera remota por un ciberdelin-
+cuente al haber sido infectados por un malware.
+El atacante remoto generalmente utiliza el ordenador zombie para realizar actividades ilí-
+citas a través de la Red, como el envío de comunicaciones electrónicas no deseadas, o la
+propagación de otro malware.
+Son sistemas zombie los ordenadores que forman parte de una botnet, a los que el bot mas-
+ter utiliza para realizar acciones coordinadas como ataques de denegación de servicio.
+
+#### Ransomware
+
+El ciberdelincuente, toma control del equipo infectado y «secuestra» la información del
+usuario cifrándola, de tal forma que permanece ilegible si no se cuenta con la contraseña de
+descifrado. De esta manera extorsiona al usuario pidiendo un rescate económico a cambio
+de esta contraseña para que, supuestamente, pueda recuperar sus datos.
+La seguridad del sistema está basada en la dificultad de factorización de grandes números. Su
+funcionamiento se basa en el envío de un mensaje cifrado mediante la clave pública del destina-
+tario, y una vez que el mensaje cifrado llega, éste se encarga de descifrarlo con su clave privada.
+
+#### Phishing
+
+Phishing es la denominación que recibe la estafa cometida a través de
+medios telemáticos mediante la cual el estafador intenta conseguir,
+de usuarios legítimos, información confidencial (contraseñas, datos
+bancarios, etc.) de forma fraudulenta.
+El estafador o phisher suplanta la personalidad de una persona o em-
+presa de confianza para que el receptor de una comunicación electró-
+nica aparentemente oficial (vía e-mail, fax, SMS o telefónicamente)
+crea en su veracidad y facilite, de este modo, los datos privados que
+resultan de interés para el estafador.
+
+Existen diferentes modalidades de phishing. Cuando éste se realiza vía
+SMS el nombre técnico es Smishing y cuando se realiza utilizando Voz
+sobre IP, se denomina vishing. Otra variedad es el spear phishing, en la
+que los atacantes intentan mediante un correo electrónico, que apa-
+renta ser de un amigo o de empresa conocida, conseguir que les facili-
+temos: información financiera, números de tarjeta de crédito, cuentas
+bancarias o contraseñas.
+
+#### Pharming
+
+Ataque informático que aprovecha una vulnerabilidad del software de los servidores DNS
+y que consiste en modificar o sustituir el archivo del servidor de nombres de dominio cam-
+biando la dirección IP legítima de una entidad (comúnmente una entidad bancaria) de ma-
+nera que en el momento en el que el usuario escribe el nombre de dominio de la entidad en
+la barra de direcciones, el navegador redirigirá automáticamente al usuario a una dirección
+IP donde se aloja una web falsa que suplantará la identidad legítima de la entidad, obtenién-
+dose de forma ilícita las claves de acceso de los clientes la entidad.
+
+#### Sniffer
+
+Un sniffer es un programa que monitoriza la información que circula por la red con el objeto
+de capturar información.
+Las tarjetas de red pueden verificar si la información recibida está dirigida o no a su sistema.
+Si no es así, la rechaza. Un sniffer lo que hace es colocar a la placa de red en un modo el cual
+desactiva el filtro de verificación de direcciones (promiscuo) y por lo tanto acepta todos los
+paquetes que llegan a la tarjeta de red del ordenador donde está instalado estén dirigidos o no
+a ese dispositivo.
+El tráfico que no viaje cifrado podrá por tanto ser «escuchado» por el usuario del sniffer.
+El análisis de tráfico puede ser utilizado también para determinar relaciones entre varios usua-
+rios (conocer con qué usuarios o sistemas se relaciona alguien en concreto).
+No es fácil detectar si nuestro tráfico de red está siendo «escuchado» mediante un sniffer,
+por lo que siempre es recomendable utilizar tráfico cifrado en todas las comunicaciones.
+
+#### Denegación de servicio (DDOoS)
+
+Se entiende como denegación de servicio, en términos de seguridad informática, a un con-
+junto de técnicas que tienen por objetivo dejar un servidor inoperativo. Mediante este tipo
+de ataques se busca sobrecargar un servidor y de esta forma impedir que los usuarios legíti-
+mos puedan utilizar los servicios por prestados por él.
+El ataque consiste en saturar con peticiones de servicio al servidor, hasta que éste no puede
+atenderlas, provocando su colapso.
+Un método más sofisticado es el ataque de Denegación de Servicio Distribuido (DDoS), mediante
+el cual las peticiones son enviadas, de forma coordinada entre varios equipos, que pueden estar
+siendo utilizados para este fin sin el conocimiento de sus legítimos dueños (por ejemplo a través
+de una botnet).
+Esto puede ser así mediante el uso de programas malware que permitan la toma de control del
+equipo de forma remota, como puede ser en los casos de ciertos tipos de gusa
+
+#### Red privada virtual
+
+Una red privada virtual, también conocida por sus siglas VPN (Virtual Private Network) es una
+tecnología de red que permite una extensión segura de una red local (LAN) sobre una red
+pública o no controlada como Internet.
+Al establecerlas, la integridad de los datos y la confidencialidad se protegen mediante la
+autentificación y el cifrado.
+Se trata realmente de una conexión virtual punto a punto entre dos redes LAN usando para
+la conexión una red pública como es Internet y consiguiendo que esta conexión sea segura
+gracias al cifrado de la comunicación.
+
 
