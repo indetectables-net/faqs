@@ -129,6 +129,7 @@ Es un software que puede encapsular varios archivos dentro de uno, de modo que, 
 
 #### Bug
 Es un error o fallo en un programa de dispositivo o sistema de software que desencadena un resultado indeseado.
+Algunos son inofensivos o simplemente molestos, pero otros pueden ser explotados por hackers.
 
 ## Antivirus y Firewalls
 
@@ -260,5 +261,42 @@ Una botnet es un conjunto de ordenadores (denominados bots) controlados remotame
 Las botnets se caracterizan por tener un servidor central (C&C, de sus siglas en inglés Command & Control) al que se conectan los bots para enviar información y recibir comandos.
 Existen también las llamadas botnets P2P que se caracterizan por carecer de un servidor C&C
 único.
+
+### Clickjacking
+El clickjacking (que quiere decir secuestro de clic) es una técnica maliciosa que tiene como fin de engañar a usuarios inexpertos que navegan en Internet para que revelen información confidencial o tomar control de su ordenador cuando hacen clic en páginas web que a priori inocentes. En uno de los muchos navegadores web o plataformas con alguna vulnerabilidad, un ataque de clickjacking puede tomar la forma de código incorporado o script que se ejecuta sin el conocimiento del usuario. Por ejemplo: aparentando ser un botón para realizar otra función.
+
+### Jailbreak
+La acción de eludir la seguridad de un dispositivo, como un iPhone o una PlayStation, para eliminar las restricciones de un fabricante, generalmente con el objetivo de hacer que ejecute software de fuentes no oficiales.
+
+### Man-in-the-middle (ataque de intermediario)
+
+Es un ataque en el que se adquiere la capacidad de leer, insertar y modificar a voluntad.2​ El atacante debe ser capaz de observar e interceptar mensajes entre las dos víctimas y procurar que ninguna de las víctimas conozca que el enlace entre ellos ha sido violado. El ataque MitM es particularmente significativo en el protocolo original de intercambio de claves de Diffie-Hellman, cuando este se emplea sin autenticación. Hay ciertas situaciones donde es bastante simple, por ejemplo, un atacante dentro del alcance de un punto de acceso wifi sin cifrar, donde este se puede insertar como intermediario.
+
+### Side-channel attack (ataque de canal lateral)
+
+Es un ataque basado en información obtenida gracias a la propia implementación física de un sistema informático, en lugar de basarse en puntos débiles del algoritmo implementado como sería el caso de recurrir a criptoanálisis o explotar errores en el software.
+Por ejemplo, la sincronización de información, el consumo de energía, fugas electromagnéticas o incluso sonidos pueden ser una fuente adicional de información que puede explotarse para romper el sistema. Algunos ataques de canal lateral requieren conocimientos técnicos sobre el funcionamiento interno del sistema, aunque otros como es el caso del análisis de diferencias de consumo energético resultan eficaces como ataques de caja negra. Muchos ataques de canal lateral poderosos están basados en los métodos estadísticos con los que Paul Kocher fue pionero.1​
+
+### Spearphishing
+
+Es una forma de phishing más personalizada y dirigida, donde los hackers intentan engañar a las víctimas para que estas hagan clic en enlaces maliciosos o archivos adjuntos que fingen ser de un ser conocido, el ataque puede estar también dirigido a empresas específicas u organizaciones, corporaciones, etc. 
+Aunque su objetivo es robar datos para fines maliciosos, los cibercriminales también pueden tratar de instalar malware en la computadora de la víctima.
+
+### Vishing
+
+Vishing es una práctica fraudulenta que consiste en el uso de la línea telefónica convencional y de la ingeniería social para engañar personas y obtener información delicada como puede ser información financiera o información útil para el robo de identidad. El término es una combinación del inglés "voice" (voz) y phishing.
+Ejemplo de fraude vishing:
+El criminal configura un war dialing para llamar a números telefónicos en una determinada región.
+Cuando la llamada es contestada, una grabación toca y alerta que al "consumidor" que su tarjeta de crédito está siendo utilizada de forma fraudulenta y que este debe llamar al número que sigue inmediatamente. El número puede ser un número gratuito falseado para la compañía financiera que se pretende representar.
+Cuando la víctima llama a este número, es contestada por una voz computarizada que le indica al "cliente" que su cuenta necesita ser verificada y le requiere que ingrese los 16 dígitos de su tarjeta de crédito.
+Cuando la persona provee la información de su tarjeta de crédito, el visher tiene toda la información necesaria para realizar cargos fraudulentos a la tarjeta de la víctima.
+La llamada puede ser también utilizada para obtener detalles adicionales como el PIN de seguridad, la fecha de expiración, el número de cuenta u otra información importante.
+
+### Vuln
+Abreviación de “vulnerabilidad”. Otra forma de referirse a bugs o fallos de software que pueden ser utilizados por hackers.
+
+
+### Warez
+Warez es un término informático común y cultural más amplio que se refiere al software pirateado (es decir, copiado ilegalmente, a menudo después de la desactivación de las medidas antipiratería) que se distribuye a través de Internet. La elusión de la protección anticopia ( craqueo) es un paso esencial en la generación de warez y, basándose en este mecanismo común, la definición centrada en el software se ha ampliado para incluir otros materiales protegidos por derechos de autor, como películas y juegos.
 
 
