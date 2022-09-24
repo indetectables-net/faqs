@@ -1,7 +1,7 @@
 # Conceptos Fundamentales
 
 > Estos son los conceptos y términos fundamentales que se suelen utilizar.
-> Arrancamos con cuestiones elementales y vamos avanzando, así que si le parecen muy fáciles las primeras preguntas por favor siga leyendo para asegurarse de que entiende también las que le siguen.
+> Arrancamos con cuestiones elementales y vamos avanzando, así que si le parecen muy fáciles las primeras preguntas por favor siga leyendo para asegurarse de que entiende también las que les siguen.
 
 ## Temario
 
@@ -159,36 +159,30 @@ Es un caso particular de firewall que se instala como software en una computador
 
 ## Glosario
 
-#### Hacker
-Es un término discutido ya que mientras los medios de comunicación como la TV y los diarios llaman hacker a cualquier persona que haya cometido un delito utilizando medios electrónicos, otros, los expertos, sostienen que para ser hacker hay que cumplir bastantes requisitos. En general hay consenso en que un hacker es un experto en varias o alguna rama técnica relacionada con la informática. Lo importante es que sepa que si ustedes sólo sabe manejar un par de troyanos, binders y crypters no debe creerse un hacker, el camino para serlo es largo y aunque pueda alardear delante de la mayoría de la gente, si lo hace en otros ámbitos podrá ser considerado un lammer.
+#### Botnet
 
-#### Lammer
-Persona sin conocimientos avanzados de computación que se cree o hace pasar por hacker. Originalmente era usada en la cultura cracker y phreaker para referirse a alguien que realmente no entendía lo que estaba haciendo.
+Una botnet es un conjunto de ordenadores (denominados bots) controlados remotamente por un atacante que pueden ser utilizados en conjunto para realizar actividades maliciosas como envío de spam, ataques de DDoS, etc.
+Las botnets se caracterizan por tener un servidor central (C&C, de sus siglas en inglés Command & Control) al que se conectan los bots para enviar información y recibir comandos.
+Existen también las llamadas botnets P2P que se caracterizan por carecer de un servidor C&C
+único.
 
-#### Script kiddies
-Término en forma de burla referido a alguien que tiene un poco de conocimiento de computadoras y solo sabe usar software estándar para hacer cosas como "tirar" sitios web o rastrear contraseñas sobre un WiFi protegido. Es básicamente un término para desacreditar a alguien que dice ser un hacker experto.
-
-#### Troll
-Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contribuir, sino para crear polémica, provocar al resto y perturbar el funcionamiento armónico de la comunidad. Se recomienda a los usuarios no contestar este tipo de mensajes ya que es la mejor manera de desalentar a un troll.
+### Clickjacking
+El clickjacking (que quiere decir secuestro de clic) es una técnica maliciosa que tiene como fin de engañar a usuarios inexpertos que navegan en Internet para que revelen información confidencial o tomar control de su ordenador cuando hacen clic en páginas web que a priori inocentes. En uno de los muchos navegadores web o plataformas con alguna vulnerabilidad, un ataque de clickjacking puede tomar la forma de código incorporado o script que se ejecuta sin el conocimiento del usuario. Por ejemplo: aparentando ser un botón para realizar otra función.
 
 #### Dark web
 "Dark web" o "darknet" a veces se usan indistintamente, aunque no debería hacerse. La web oscura (darknet) está formada por sitios que no están indexados por los motores de búsqueda (como Google) y solo son accesibles a través de redes especializadas como Tor (ver Tor). A menudo, la web oscura es utilizada por operadores de sitios web que desean permanecer en el anonimato. Todo en la web oscura está en la web profunda (ver Deep Web), pero no todo en la web profunda está en la web oscura.
 
+#### Denegación de servicio (DDOoS)
+
+Se entiende como denegación de servicio, en términos de seguridad informática, a un conjunto de técnicas que tienen por objetivo dejar un servidor inoperativo. Mediante este tipo de ataques se busca sobrecargar un servidor y de esta forma impedir que los usuarios legítimos puedan utilizar los servicios por prestados por él. 
+El ataque consiste en saturar con peticiones de servicio al servidor, hasta que éste no puede 
+atenderlas, provocando su colapso.
+Un método más sofisticado es el ataque de Denegación de Servicio Distribuido (DDoS), mediante el cual las peticiones son enviadas, de forma coordinada entre varios equipos, que pueden estar siendo utilizados para este fin sin el conocimiento de sus legítimos dueños (por ejemplo a través de una botnet).
+Esto puede ser así mediante el uso de programas malware que permitan la toma de control del
+equipo de forma remota, como puede ser en los casos de ciertos tipos de gusanos.
+
 #### Deep web
 Este término y "dark web" o "darknet" a veces se usan indistintamente, aunque no deberían serlo. La web profunda (deep web) es la parte de Internet que los motores de búsqueda no indexan. Eso incluye páginas protegidas con contraseña, sitios con paredes de pago, redes encriptadas y bases de datos.
-
-####  Spoofing
-
-Es una técnica de suplantación de identidad en la Red, llevada a cabo por un ciberdelincuente generalmente gracias a un proceso de investigación o con el uso de malware. Los ataques de seguridad en las redes usando técnicas de spoofing ponen en riesgo la privacidad de los
-usuarios, así como la integridad de sus datos.
-De acuerdo a la tecnología utilizada se pueden diferenciar varios tipos de spoofing:
-• IP spoofing: consiste en la suplantación de la dirección IP de origen de un paquete TCP/
-IP por otra dirección IP a la cual se desea suplantar.
-• ARP spoofing: es la suplantación de identidad por falsificación de tabla ARP. ARP (Address Resolution Protocol) es un protocolo de nivel de red que relaciona una dirección MAC con la dirección IP del ordenador. Por lo tanto, al falsear la tabla ARP de la víctima,
-todo lo que se envíe a un usuario, será direccionado al atacante.
-• DNS spoofing: es una suplantación de identidad por nombre de dominio, la cual consiste en una relación falsa entre IP y nombre de dominio.
-• Web spoofing: con esta técnica el atacante crea una falsa página web, muy similar a la que suele utilizar el afectado con el objetivo de obtener información de dicha víctima como contraseñas, información personal, datos facilitados, páginas que visita con frecuencia, perfil del usuario, etc. Los ataques de phishing son un tipo de Web spoofing.
-• Mail spoofing: suplantación de correo electrónico bien sea de personas o de entidades con el objetivo de llevar a cabo envío masivo de spam.
 
 #### Exploit
 
@@ -197,21 +191,23 @@ Secuencia de comandos utilizados para, aprovechándose de un fallo o vulnerabili
 • obtención de permisos de administración en un sistema ya accedido.
 • un ataque de denegación de servicio a un sistema.
 
-#### Zero-day
+#### Hacker
+Es un término discutido ya que mientras los medios de comunicación como la TV y los diarios llaman hacker a cualquier persona que haya cometido un delito utilizando medios electrónicos, otros, los expertos, sostienen que para ser hacker hay que cumplir bastantes requisitos. En general hay consenso en que un hacker es un experto en varias o alguna rama técnica relacionada con la informática. Lo importante es que sepa que si ustedes sólo sabe manejar un par de troyanos, binders y crypters no debe creerse un hacker, el camino para serlo es largo y aunque pueda alardear delante de la mayoría de la gente, si lo hace en otros ámbitos podrá ser considerado un lammer.
 
-Son aquellas vulnerabilidades en sistemas o programas informáticos que son únicamente conocidas por determinados atacantes y son desconocidas por los fabricantes y usuarios. Al ser desconocidas por los fabricantes, no existe un parche de seguridad para solucionarlas.
-Por esta razón son muy peligrosas ya que el atacante puede explotarlas sin que el usuario sea consciente de que es vulnerable.
+### Jailbreak
+La acción de eludir la seguridad de un dispositivo, como un iPhone o una PlayStation, para eliminar las restricciones de un fabricante, generalmente con el objetivo de hacer que ejecute software de fuentes no oficiales.
 
-#### Zombie
+#### Lammer
+Persona sin conocimientos avanzados de computación que se cree o hace pasar por hacker. Originalmente era usada en la cultura cracker y phreaker para referirse a alguien que realmente no entendía lo que estaba haciendo.
 
-Es el nombre que se da a los ordenadores controlados de manera remota por un ciberdelincuente al haber sido infectados por un malware.
-El atacante remoto generalmente utiliza el ordenador zombie para realizar actividades ilícitas a través de la Red, como el envío de comunicaciones electrónicas no deseadas, o la propagación de otro malware.
-Son sistemas zombie los ordenadores que forman parte de una botnet, a los que el bot master utiliza para realizar acciones coordinadas como ataques de denegación de servicio.
+### Man-in-the-middle (ataque de intermediario)
 
-#### Ransomware
+Es un ataque en el que se adquiere la capacidad de leer, insertar y modificar a voluntad.2​ El atacante debe ser capaz de observar e interceptar mensajes entre las dos víctimas y procurar que ninguna de las víctimas conozca que el enlace entre ellos ha sido violado. El ataque MitM es particularmente significativo en el protocolo original de intercambio de claves de Diffie-Hellman, cuando este se emplea sin autenticación. Hay ciertas situaciones donde es bastante simple, por ejemplo, un atacante dentro del alcance de un punto de acceso wifi sin cifrar, donde este se puede insertar como intermediario.
 
-El ciberdelincuente, toma control del equipo infectado y «secuestra» la información del usuario cifrándola, de tal forma que permanece ilegible si no se cuenta con la contraseña de descifrado. De esta manera extorsiona al usuario pidiendo un rescate económico a cambio de esta contraseña para que, supuestamente, pueda recuperar sus datos.
-La seguridad del sistema está basada en la dificultad de factorización de grandes números. Su funcionamiento se basa en el envío de un mensaje cifrado mediante la clave pública del destinatario, y una vez que el mensaje cifrado llega, éste se encarga de descifrarlo con su clave privada.
+#### Pharming
+
+Ataque informático que aprovecha una vulnerabilidad del software de los servidores DNS y que consiste en modificar o sustituir el archivo del servidor de nombres de dominio cambiando la dirección IP legítima de una entidad (comúnmente una entidad bancaria) de manera que en el momento en el que el usuario escribe el nombre de dominio de la entidad en la barra de direcciones, el navegador redirigirá automáticamente al usuario a una dirección
+IP donde se aloja una web falsa que suplantará la identidad legítima de la entidad, obteniéndose de forma ilícita las claves de acceso de los clientes la entidad.
 
 #### Phishing
 
@@ -225,10 +221,24 @@ sobre IP, se denomina vishing. Otra variedad es el spear phishing, en la que los
 renta ser de un amigo o de empresa conocida, conseguir que les facilitemos: información financiera, números de tarjeta de crédito, cuentas
 bancarias o contraseñas.
 
-#### Pharming
+#### Ransomware
 
-Ataque informático que aprovecha una vulnerabilidad del software de los servidores DNS y que consiste en modificar o sustituir el archivo del servidor de nombres de dominio cambiando la dirección IP legítima de una entidad (comúnmente una entidad bancaria) de manera que en el momento en el que el usuario escribe el nombre de dominio de la entidad en la barra de direcciones, el navegador redirigirá automáticamente al usuario a una dirección
-IP donde se aloja una web falsa que suplantará la identidad legítima de la entidad, obteniéndose de forma ilícita las claves de acceso de los clientes la entidad.
+El ciberdelincuente, toma control del equipo infectado y «secuestra» la información del usuario cifrándola, de tal forma que permanece ilegible si no se cuenta con la contraseña de descifrado. De esta manera extorsiona al usuario pidiendo un rescate económico a cambio de esta contraseña para que, supuestamente, pueda recuperar sus datos.
+La seguridad del sistema está basada en la dificultad de factorización de grandes números. Su funcionamiento se basa en el envío de un mensaje cifrado mediante la clave pública del destinatario, y una vez que el mensaje cifrado llega, éste se encarga de descifrarlo con su clave privada.
+
+#### Red privada virtual
+
+Una red privada virtual, también conocida por sus siglas VPN (Virtual Private Network) es una tecnología de red que permite una extensión segura de una red local (LAN) sobre una red pública o no controlada como Internet.
+Al establecerlas, la integridad de los datos y la confidencialidad se protegen mediante la autentificación y el cifrado.
+Se trata realmente de una conexión virtual punto a punto entre dos redes LAN usando para la conexión una red pública como es Internet y consiguiendo que esta conexión sea segura gracias al cifrado de la comunicación.
+
+#### Script kiddies
+Término en forma de burla referido a alguien que tiene un poco de conocimiento de computadoras y solo sabe usar software estándar para hacer cosas como "tirar" sitios web o rastrear contraseñas sobre un WiFi protegido. Es básicamente un término para desacreditar a alguien que dice ser un hacker experto.
+
+### Side-channel attack (ataque de canal lateral)
+
+Es un ataque basado en información obtenida gracias a la propia implementación física de un sistema informático, en lugar de basarse en puntos débiles del algoritmo implementado como sería el caso de recurrir a criptoanálisis o explotar errores en el software.
+Por ejemplo, la sincronización de información, el consumo de energía, fugas electromagnéticas o incluso sonidos pueden ser una fuente adicional de información que puede explotarse para romper el sistema. Algunos ataques de canal lateral requieren conocimientos técnicos sobre el funcionamiento interno del sistema, aunque otros como es el caso del análisis de diferencias de consumo energético resultan eficaces como ataques de caja negra. Muchos ataques de canal lateral poderosos están basados en los métodos estadísticos con los que Paul Kocher fue pionero.1​
 
 #### Sniffer
 
@@ -240,47 +250,28 @@ El tráfico que no viaje cifrado podrá por tanto ser «escuchado» por el usuar
 El análisis de tráfico puede ser utilizado también para determinar relaciones entre varios usuarios (conocer con qué usuarios o sistemas se relaciona alguien en concreto).
 No es fácil detectar si nuestro tráfico de red está siendo «escuchado» mediante un sniffer,por lo que siempre es recomendable utilizar tráfico cifrado en todas las comunicaciones.
 
-#### Denegación de servicio (DDOoS)
-
-Se entiende como denegación de servicio, en términos de seguridad informática, a un conjunto de técnicas que tienen por objetivo dejar un servidor inoperativo. Mediante este tipo de ataques se busca sobrecargar un servidor y de esta forma impedir que los usuarios legítimos puedan utilizar los servicios por prestados por él. 
-El ataque consiste en saturar con peticiones de servicio al servidor, hasta que éste no puede 
-atenderlas, provocando su colapso.
-Un método más sofisticado es el ataque de Denegación de Servicio Distribuido (DDoS), mediante el cual las peticiones son enviadas, de forma coordinada entre varios equipos, que pueden estar siendo utilizados para este fin sin el conocimiento de sus legítimos dueños (por ejemplo a través de una botnet).
-Esto puede ser así mediante el uso de programas malware que permitan la toma de control del
-equipo de forma remota, como puede ser en los casos de ciertos tipos de gusanos.
-
-#### Red privada virtual
-
-Una red privada virtual, también conocida por sus siglas VPN (Virtual Private Network) es una tecnología de red que permite una extensión segura de una red local (LAN) sobre una red pública o no controlada como Internet.
-Al establecerlas, la integridad de los datos y la confidencialidad se protegen mediante la autentificación y el cifrado.
-Se trata realmente de una conexión virtual punto a punto entre dos redes LAN usando para la conexión una red pública como es Internet y consiguiendo que esta conexión sea segura gracias al cifrado de la comunicación.
-
-#### Botnet
-
-Una botnet es un conjunto de ordenadores (denominados bots) controlados remotamente por un atacante que pueden ser utilizados en conjunto para realizar actividades maliciosas como envío de spam, ataques de DDoS, etc.
-Las botnets se caracterizan por tener un servidor central (C&C, de sus siglas en inglés Command & Control) al que se conectan los bots para enviar información y recibir comandos.
-Existen también las llamadas botnets P2P que se caracterizan por carecer de un servidor C&C
-único.
-
-### Clickjacking
-El clickjacking (que quiere decir secuestro de clic) es una técnica maliciosa que tiene como fin de engañar a usuarios inexpertos que navegan en Internet para que revelen información confidencial o tomar control de su ordenador cuando hacen clic en páginas web que a priori inocentes. En uno de los muchos navegadores web o plataformas con alguna vulnerabilidad, un ataque de clickjacking puede tomar la forma de código incorporado o script que se ejecuta sin el conocimiento del usuario. Por ejemplo: aparentando ser un botón para realizar otra función.
-
-### Jailbreak
-La acción de eludir la seguridad de un dispositivo, como un iPhone o una PlayStation, para eliminar las restricciones de un fabricante, generalmente con el objetivo de hacer que ejecute software de fuentes no oficiales.
-
-### Man-in-the-middle (ataque de intermediario)
-
-Es un ataque en el que se adquiere la capacidad de leer, insertar y modificar a voluntad.2​ El atacante debe ser capaz de observar e interceptar mensajes entre las dos víctimas y procurar que ninguna de las víctimas conozca que el enlace entre ellos ha sido violado. El ataque MitM es particularmente significativo en el protocolo original de intercambio de claves de Diffie-Hellman, cuando este se emplea sin autenticación. Hay ciertas situaciones donde es bastante simple, por ejemplo, un atacante dentro del alcance de un punto de acceso wifi sin cifrar, donde este se puede insertar como intermediario.
-
-### Side-channel attack (ataque de canal lateral)
-
-Es un ataque basado en información obtenida gracias a la propia implementación física de un sistema informático, en lugar de basarse en puntos débiles del algoritmo implementado como sería el caso de recurrir a criptoanálisis o explotar errores en el software.
-Por ejemplo, la sincronización de información, el consumo de energía, fugas electromagnéticas o incluso sonidos pueden ser una fuente adicional de información que puede explotarse para romper el sistema. Algunos ataques de canal lateral requieren conocimientos técnicos sobre el funcionamiento interno del sistema, aunque otros como es el caso del análisis de diferencias de consumo energético resultan eficaces como ataques de caja negra. Muchos ataques de canal lateral poderosos están basados en los métodos estadísticos con los que Paul Kocher fue pionero.1​
-
 ### Spearphishing
 
 Es una forma de phishing más personalizada y dirigida, donde los hackers intentan engañar a las víctimas para que estas hagan clic en enlaces maliciosos o archivos adjuntos que fingen ser de un ser conocido, el ataque puede estar también dirigido a empresas específicas u organizaciones, corporaciones, etc. 
 Aunque su objetivo es robar datos para fines maliciosos, los cibercriminales también pueden tratar de instalar malware en la computadora de la víctima.
+
+####  Spoofing
+Es una técnica de suplantación de identidad en la Red, llevada a cabo por un ciberdelincuente generalmente gracias a un proceso de investigación o con el uso de malware. Los ataques de seguridad en las redes usando técnicas de spoofing ponen en riesgo la privacidad de los
+usuarios, así como la integridad de sus datos.
+De acuerdo a la tecnología utilizada se pueden diferenciar varios tipos de spoofing:
+• IP spoofing: consiste en la suplantación de la dirección IP de origen de un paquete TCP/
+IP por otra dirección IP a la cual se desea suplantar.
+• ARP spoofing: es la suplantación de identidad por falsificación de tabla ARP. ARP (Address Resolution Protocol) es un protocolo de nivel de red que relaciona una dirección MAC con la dirección IP del ordenador. Por lo tanto, al falsear la tabla ARP de la víctima,
+todo lo que se envíe a un usuario, será direccionado al atacante.
+• DNS spoofing: es una suplantación de identidad por nombre de dominio, la cual consiste en una relación falsa entre IP y nombre de dominio.
+• Web spoofing: con esta técnica el atacante crea una falsa página web, muy similar a la que suele utilizar el afectado con el objetivo de obtener información de dicha víctima como contraseñas, información personal, datos facilitados, páginas que visita con frecuencia, perfil del usuario, etc. Los ataques de phishing son un tipo de Web spoofing.
+• Mail spoofing: suplantación de correo electrónico bien sea de personas o de entidades con el objetivo de llevar a cabo envío masivo de spam.
+
+#### Stealer
+En español, "ladrón de información", es el nombre genérico de programas informáticos maliciosos del tipo troyano, que se introducen a través de internet en un ordenador con el propósito de obtener de forma fraudulenta información confidencial del propietario, tal como su nombre de acceso a sitios web, contraseña o número de tarjeta de crédito.
+
+#### Troll
+Usuario de las redes sociales/foros que escribe mensajes sin el objeto de contribuir, sino para crear polémica, provocar al resto y perturbar el funcionamiento armónico de la comunidad. Se recomienda a los usuarios no contestar este tipo de mensajes ya que es la mejor manera de desalentar a un troll.
 
 ### Vishing
 
@@ -295,8 +286,15 @@ La llamada puede ser también utilizada para obtener detalles adicionales como e
 ### Vuln
 Abreviación de “vulnerabilidad”. Otra forma de referirse a bugs o fallos de software que pueden ser utilizados por hackers.
 
-
 ### Warez
 Warez es un término informático común y cultural más amplio que se refiere al software pirateado (es decir, copiado ilegalmente, a menudo después de la desactivación de las medidas antipiratería) que se distribuye a través de Internet. La elusión de la protección anticopia ( craqueo) es un paso esencial en la generación de warez y, basándose en este mecanismo común, la definición centrada en el software se ha ampliado para incluir otros materiales protegidos por derechos de autor, como películas y juegos.
 
+#### Zero-day
+Son aquellas vulnerabilidades en sistemas o programas informáticos que son únicamente conocidas por determinados atacantes y son desconocidas por los fabricantes y usuarios. Al ser desconocidas por los fabricantes, no existe un parche de seguridad para solucionarlas.
+Por esta razón son muy peligrosas ya que el atacante puede explotarlas sin que el usuario sea consciente de que es vulnerable.
+
+#### Zombie
+Es el nombre que se da a los ordenadores controlados de manera remota por un ciberdelincuente al haber sido infectados por un malware.
+El atacante remoto generalmente utiliza el ordenador zombie para realizar actividades ilícitas a través de la Red, como el envío de comunicaciones electrónicas no deseadas, o la propagación de otro malware.
+Son sistemas zombie los ordenadores que forman parte de una botnet, a los que el bot master utiliza para realizar acciones coordinadas como ataques de denegación de servicio.
 
